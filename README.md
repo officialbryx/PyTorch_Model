@@ -9,3 +9,6 @@ Summarization:
 1.) Vector - is a quantity with magnitude and direction.
 2.) Tensor - matrices of vectors to organize and store data in machine learning. 
 
+Random_image_tensor = (width, height, rgb)
+Example = (224, 224, 3) values within the tensor
+
