@@ -12,3 +12,6 @@ Summarization:
 Random_image_tensor = (width, height, rgb)
 Example = (224, 224, 3) values within the tensor
 
+.dtype = there are different data types in tensor (32bit (default), 16bit (faster processing, less precision), 64bit (more precise, lower processing times used for larger models)
+.device = different devices but when calculating tensors, they should be the same. Devices: ("cuda" (for nvidia gpu), "cpu", "tpu")
+.requires_grad = if gradients required to be computed/tracked
